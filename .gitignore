@@ -1,0 +1,36 @@
+# Environment
+
+.env
+venv/
+
+# Python
+
+**pycache**/
+*.pyc
+
+# Database
+
+*.db
+*.sqlite3
+query_logs.db
+
+# ChromaDB
+
+chroma_db/
+chroma/
+data/chroma_db/
+
+# Financial PDFs
+
+data/raw_pdfs/
+data/processed/
+
+# Generated files
+
+reports/
+*.log
+
+# IDE
+
+.vscode/
+.idea/
