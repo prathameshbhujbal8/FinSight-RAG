@@ -110,6 +110,45 @@ src/
 streamlit_app.py          UI entrypoint
 ```
 
+## Screenshots
+
+### Financial Q&A:What is Infosys AI strategy?
+<img width="852" height="392" alt="image" src="https://github.com/user-attachments/assets/37c73957-ac4e-4cb0-8801-1eb9752c193f" />                                                                      Source Verification Example
+
+The answer regarding Infosys' AI strategy was retrieved from the annual report and traced back to the original PDF source.<img width="831" height="657" alt="image" src="https://github.com/user-attachments/assets/23925c01-1779-4853-8c0d-80e23b5577f2" />
+
+
+
+
+### Company Comparison:Compare AI strategy
+<img width="467" height="781" alt="image" src="https://github.com/user-attachments/assets/846e6c01-9448-4585-af03-25d84a86d2b3" />
+
+
+### Hallucination Prevention:What is Infosys plan to build electric vehicles by 2030?
+Answer:
+Information not found in the provided documents.
+Sources:📄 infosys_annual_report_2025.pdf
+Page: 66  (This screenshot is actually a perfect example of why your hallucination test is valuable.
+
+The question was:
+
+What is Infosys plan to build electric vehicles by 2030?
+
+And the page you showed is about:
+
+Energy conservation
+Renewable energy
+Green buildings
+Water management
+Waste management
+Carbon offset
+
+There is nothing about electric vehicles.FinSight applies retrieval filtering and empty-context handling to avoid generating unsupported answers when information is not present in the source documents.)<img width="756" height="910" alt="image" src="https://github.com/user-attachments/assets/af8e15ac-7315-402b-8c82-1118a0a86fdf" />
+
+### Analytics Dashboard
+<img width="1858" height="851" alt="image" src="https://github.com/user-attachments/assets/281fb170-8419-49c5-889a-5b73e4980215" />
+
+
 ## What I'd Build Next
 
 - Session-scoped document isolation for multi-user deployment
